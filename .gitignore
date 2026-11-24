@@ -1,0 +1,52 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Machine Learning
+checkpoints/
+models/
+*.pt
+*.pth
+*.onnx
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Node.js / TypeScript
+node_modules/
+dist/
+build/
+.next/
+.env*
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+*.pem
